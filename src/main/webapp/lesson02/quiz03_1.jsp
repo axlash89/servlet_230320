@@ -10,7 +10,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </head>
 <body>
-
+	
 	<%
 	double bmi = 0;
 	int weight = Integer.parseInt(request.getParameter("weight"));
@@ -28,8 +28,12 @@
 		result = "비만";
 	}
 	%>
-	<h2>BMI 측정 결과</h2>
-	<h1>당신은 <font color = "blue"><%= result %></font> 입니다.</h1>
-	BMI 수치 : <%= bmi %>
+	<div class="container">
+		<h2>BMI 측정 결과</h2>
+		<div class="d-flex">
+		<h1>당신은</h1><h1 class="text-info ml-2 mr-2"><%= result %></h1><h1>입니다.</h1>
+		</div>
+		BMI 수치 : <%= bmi %>
+	</div>
 </body>
 </html>
