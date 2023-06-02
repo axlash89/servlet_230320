@@ -10,8 +10,8 @@
 	
 	<form method="post" action="/lesson02/ex03_1.jsp">
 		
-		1. 별명은 무엇입니까? <input type="text" name="nickname"> <br><br>
-		2. 취미는 무엇입니까? <input type="text" name="hobby"> <br><br>
+		1. 별명은 무엇입니까? <input type="text" name="nickname"><br><br>
+		2. 취미는 무엇입니까? <input type="text" name="hobby"><br><br>
 		3. 강아지 or 고양이
 		<label>강아지<input type="radio" name="animal" value="dog"></label>		
 		<label>고양이<input type="radio" name="animal" value="cat"></label><br><br>
@@ -21,14 +21,14 @@
 		<label>번데기<input type="checkBox" name="food" value="번데기"></label><br><br>
 		5. 좋아하는 과일을 선택하세요.<br>
 		<select name="fruit">
-			<option value="사과">사과</option> <!-- ??? -->
+			<option>사과</option> <!-- ??? -->
 			<option>바나나</option>
 			<option>블루베리</option>
 			<option>망고</option>
 			<option>딸기</option>
-		</select>
-		
+		</select>		
 		<button type="submit">제출</button>
+		
 	</form>
 
 </body>

@@ -16,6 +16,7 @@
 	%>
 	
 	<table border="1">
+	
 		<tr>
 			<th>별명</th>
 			<td><%= nickname %></td>

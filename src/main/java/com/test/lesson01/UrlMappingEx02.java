@@ -29,7 +29,6 @@ public class UrlMappingEx02 extends HttpServlet {
 		out.print("합계 : <b>" + sum + "</b>");
 		out.print("</body></html>");
 		
-		
 	}
 		
 }
