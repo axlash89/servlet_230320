@@ -20,16 +20,16 @@
 			for (String type : typeArr) {
 				if (type.equals("inch")) {
 					double inch = cm * 0.393701;
-					out.print(inch + " in");
+					out.print(inch + " in <br>");
 				} else if (type.equals("yard")) {
 					double yard = cm * 0.0109361;
-					out.print(yard + " yd");
+					out.print(yard + " yd <br>");
 				} else if (type.equals("feet")) {
 					double feet = cm * 0.0328084;
-					out.print(feet + " ft");
+					out.print(feet + " ft <br>");
 				} else if (type.equals("meter")) {
 					double meter = cm * 0.01;
-					out.print(meter + " m");
+					out.print(meter + " m <br>");
 				}			
 			}
 		}

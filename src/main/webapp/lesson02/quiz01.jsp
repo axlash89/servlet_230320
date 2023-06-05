@@ -41,7 +41,7 @@
 		}
 	}
 	
-	String birthDay = "20010820";
+	String birthDay = "20070820";
 	int age = 0;
 	age = 2023 - Integer.parseInt(birthDay.substring(0, 4)) + 1;
 	// out.print(age);
