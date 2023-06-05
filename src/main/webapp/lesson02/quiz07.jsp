@@ -12,13 +12,12 @@
 <body>
 
 <div class="container">
-
 	<h1>메뉴 검색</h1>
 	<form method="post" action="/lesson02/quiz07_1.jsp">
 		<div>
 			<input type="text" class="col-4" name="searchingBox">
 			<label>
-			<input type="checkBox" class="ml-2 mr-1" name="exceptUnder4" value="exceptUnder4">4점이하 제외
+			<input type="checkBox" class="ml-1 mr-1" name="exceptUnder4" value="exceptUnder4">4점이하 제외
 			</label>
 		</div>
 		<input type="submit" class="btn btn-success mt-2" value="검색">

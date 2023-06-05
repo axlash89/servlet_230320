@@ -11,7 +11,7 @@
 </head>
 <body>
 	
-	<div class="container">
+	<div class="container mt-5">
 		
 		<form method="post" action="/lesson02/quiz05_1.jsp">
 			<input type="text" class="col-3" name="v1">
@@ -22,8 +22,7 @@
 				<option value="divide">/</option>
 			</select>			
 			<input type="text" class="col-3" name="v2">
-			<input type="submit" class="btn btn-success" value="계산하기">
-			
+			<input type="submit" class="btn btn-success" value="계산하기">			
 		</form>
 		
 	</div>

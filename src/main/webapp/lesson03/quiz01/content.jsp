@@ -4,7 +4,6 @@
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<section class="content">
 	<%
 	List<Map<String, String>> list = new ArrayList<>();
 	Map<String, String> map = new HashMap<String, String>() {
@@ -188,4 +187,3 @@
 
 		</tbody>
 	</table>
-</section>

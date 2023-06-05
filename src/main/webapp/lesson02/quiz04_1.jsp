@@ -9,7 +9,7 @@
 <body>
 	<%
 		int cm = Integer.parseInt(request.getParameter("cm"));
-		String[] typeArr = request.getParameterValues("type"); // checkbox같은 여러 값을 가져올 때		
+		String[] typeArr = request.getParameterValues("type"); // checkbox 같은 여러 값을 가져올 때		
 	%>
 	<h1>길이 변환 결과</h1>
 	<h3><%= cm %> cm</h3>

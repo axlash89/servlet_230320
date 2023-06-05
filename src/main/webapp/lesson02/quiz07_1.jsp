@@ -44,7 +44,7 @@ String exceptUnder4 = request.getParameter("exceptUnder4");
 				<th>별점</th>
 			</tr>
 		</thead>
-		<tbody>		
+		<tbody>
 			<%
 			// 체크됨:exceptUnder4, 체크안됨:null
 			for (int i = 0; i < list.size(); i++) {
@@ -68,8 +68,7 @@ String exceptUnder4 = request.getParameter("exceptUnder4");
 							<td><%= list.get(i).get("point") %></td>
 						</tr>
 			<%
-						}
-					
+						}					
 					}
 				}				
 			}

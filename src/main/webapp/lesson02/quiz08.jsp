@@ -20,8 +20,8 @@ List<Map<String, Object>> list = new ArrayList<>();
 Map<String, Object> map = new HashMap<String, Object>() {
     { 
         put("id", 1000);
-        put("title", "아몬드"); 
-        put("author", "손원평"); 
+        put("title", "아몬드");
+        put("author", "손원평");
         put("publisher", "창비");
         put("image", "http://image.kyobobook.co.kr/images/book/xlarge/267/x9788936434267.jpg");
     } 
@@ -73,11 +73,11 @@ list.add(map);
 		</thead>
 		<tbody>
 		<%
-			for (int i = 0; i < list.size(); i++) {			
+			for (int i = 0; i < list.size(); i++) {
 		%>
 			<tr class="row">
 				<td class="col-1"><%= list.get(i).get("id") %></td>
-				<td class="col-2"><img src= <%= list.get(i).get("image") %> alt="표지" width="50"></td>
+				<td class="col-2"><img src= <%= list.get(i).get("image") %> alt="표지" width="60"></td>
 				<td class="col-9"><a href="/lesson02/quiz08_1.jsp?id=<%= list.get(i).get("id") %>"><%= list.get(i).get("title") %></a></td>
 			</tr>
 		<%

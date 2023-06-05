@@ -73,7 +73,7 @@ List<Map<String, Object>> list = new ArrayList<>();
 			<h3 class="text-info"><%= list.get(i).get("author") %></h3>
 			<h4 class="text-secondary"><%= list.get(i).get("publisher") %></h4>
 		</div>
-	</div>	
+	</div>
 
 <%	
 		}
