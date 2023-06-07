@@ -27,16 +27,12 @@ footer {height:10%;}
 			<jsp:include page="menu.jsp" />
 		</nav>
 		
-		<section class="contents bg-primary">
-			
-				<jsp:include page="content1.jsp" />
-			
+		<section class="contents bg-white">			
+			<jsp:include page="content1.jsp" />			
 		</section>
 		
 		<footer>
-			<div>
-			Copyright © Melong 2023
-			</div>
+			<jsp:include page="footer.jsp" />
 		</footer>
 	
 	</div>
