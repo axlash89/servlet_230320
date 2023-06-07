@@ -32,8 +32,9 @@ a, a:hover {
 </style>
 </head>
 <body>
-	<div id="wrap" class="container">
 
+	<div id="wrap" class="container">
+	
 		<header>
 			<jsp:include page="header.jsp" />
 		</header>
@@ -51,8 +52,7 @@ a, a:hover {
 		</footer>
 		
 	</div>
-
 	<!-- 과제물 있음 -->
-
+	
 </body>
 </html>

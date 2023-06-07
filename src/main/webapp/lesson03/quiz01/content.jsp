@@ -160,18 +160,18 @@
 			<%
 			if (menu.equals("전체")) {
 					for (int i = 0; i < list.size(); i++) {
-				%>
+			%>
 				<tr>
 					<td><%=list.get(i).get("ch")%></td>
 					<td><%=list.get(i).get("name")%></td>
 					<td><%=list.get(i).get("category")%></td>
 				</tr>
-				<%
+			<%
 				}
 			} else {
 				for (int i = 0; i < list.size(); i++) {
 					if (list.get(i).get("category").equals(menu)) {
-				%>
+			%>
 					<tr>
 						<td><%=list.get(i).get("ch")%></td>
 						<td><%=list.get(i).get("name")%></td>
@@ -180,9 +180,7 @@
 			<%
 					}
 				}
-			}
-			
-			
+			}						
 			%>
 
 		</tbody>

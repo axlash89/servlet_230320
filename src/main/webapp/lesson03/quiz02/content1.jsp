@@ -102,8 +102,7 @@
 					<th>앨범</th>
 				</tr>
 			</thead>
-			<tbody>
-			
+			<tbody>			
 			<%
 			for (int i = 0; i < musicList.size(); i++) {
 			%>			

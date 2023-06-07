@@ -7,10 +7,23 @@
 <div class="col-10">
 	<form method="get" action="/lesson03/quiz02/info_layout.jsp">
 		<div class="input-group col-5">
+			
+			<%
+			if (request.getParameter("search") != null) {
+			%>
 			<input type="text" class="form-control" name="search" value="<%= request.getParameter("search") %>">
+			<%
+			} else {
+			%>
+			<input type="text" class="form-control" name="search" value="">
+			<%
+			}
+			%>	
+			
 			<div class="input-group-append">
 				<button class="btn btn-success" type="submit">검색</button>
 			</div>
+			
 		</div>
 	</form>
 </div>

@@ -17,17 +17,17 @@ footer {height:10%;}
 </head>
 <body>
 
-	<div id="wrap" class="bg-secondary">
+	<div id="wrap">
 	
-		<header class="bg-warning d-flex align-items-center">
+		<header class="d-flex align-items-center">
 			<jsp:include page="header.jsp" />
 		</header>
 		
-		<nav class="bg-danger">
+		<nav>
 			<jsp:include page="menu.jsp" />
 		</nav>
 		
-		<section class="contents bg-white">			
+		<section class="contents">			
 			<jsp:include page="content1.jsp" />			
 		</section>
 		
