@@ -12,6 +12,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </head>
 <body>
+
 <%
    // DB 연결
    MysqlService ms = MysqlService.getInstance();
@@ -20,6 +21,7 @@
    String selectQuery = "select * from `favorite_site` order by id desc";
    ResultSet res = ms.select(selectQuery);   
 %>
+
 	<table class="table" border="1">
 		<thead>
 			<tr>
@@ -42,9 +44,11 @@
 		%>			
 		</tbody>
 	</table>
+	
 <% 
    // DB 연결 해제
    ms.disconnect();
 %>
+
 </body>
 </html>

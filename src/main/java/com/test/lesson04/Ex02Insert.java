@@ -13,8 +13,9 @@ import com.test.common.MysqlService;
 @WebServlet("/lesson04/ex02_insert")
 public class Ex02Insert extends HttpServlet {
 	
-	@Override 
+	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		
 		// 응답에 대한 정의는 생략 - redirect할 것이기 때문에
 		// response.setContentType();
 		
@@ -23,8 +24,6 @@ public class Ex02Insert extends HttpServlet {
 		String yyyymmdd = request.getParameter("yyyymmdd");
 		String email = request.getParameter("email");
 		String introduce = request.getParameter("introduce");
-		
-		
 		
 		// db 연결
 		MysqlService ms = MysqlService.getInstance();

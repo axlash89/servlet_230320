@@ -12,6 +12,7 @@
 		<label>사이트명<input type="text" name="name"></label>
 		<br>
 		<label>사이트주소<input type="text" name="address"></label>
+		<br>
 		<input type="submit" value="추가">		
 	</form>
 	

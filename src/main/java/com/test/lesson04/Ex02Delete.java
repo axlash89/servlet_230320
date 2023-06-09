@@ -16,7 +16,7 @@ public class Ex02Delete extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		
-		// 파라미터 꺼내기		
+		// 파라미터 꺼내기
 		int id = Integer.parseInt(request.getParameter("id"));
 		
 		// DB 연결
